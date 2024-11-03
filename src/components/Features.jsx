@@ -9,7 +9,7 @@ const Features = () => {
     </li>
   ))
   return (
-    <div className='text-center mb-[123px]'>
+    <div id="features" className='text-center mb-[123px]'>
       <strong className='uppercase text-[#DC780B] font-[400] text-[18px] leading-[18px] mb-[7px]'>Features</strong>
       <h2 className='font-[700] text-[31px] leading-[35px] mb-[44px]'>Food with a New Passion</h2>
       <ul className='flex items-center gap-[50px]'>

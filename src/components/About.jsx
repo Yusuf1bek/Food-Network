@@ -3,7 +3,7 @@ import aboutImg from "../assets/images/about-img.png"
 
 const About = () => {
   return (
-    <section className='flex items-center gap-[97px] mb-[115px]'>
+    <section id="about us" className='flex items-center gap-[97px] mb-[115px]'>
         <img src={aboutImg} alt="About-Img" width={555} height={500}/>
         <div className='w-[452px]'> 
             <strong className='uppercase font-[400] text-[16px] leading-[24px] mb-[10px] text-[#DC780B]'>About us</strong>

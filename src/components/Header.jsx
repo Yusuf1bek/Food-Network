@@ -5,7 +5,7 @@ import LogoIcon from "../assets/images/logo-icon.svg"
 const Header = () => {
   const listItem = items?.map((item, inx) => (
     <li>
-      <a key={inx} href="#" className='font-[400] text-[15px] leading-[18px] hover:text-[#DC780B] duration-300'>{item}</a>
+      <a key={inx} href={"#" + item.toLowerCase()} className='font-[400] text-[15px] leading-[18px] hover:text-[#DC780B] duration-300'>{item}</a>
     </li>
   )) 
   return (

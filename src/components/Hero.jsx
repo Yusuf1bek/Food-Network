@@ -3,7 +3,7 @@ import HeroImg from "../assets/images/hero-img.png"
 
 const Hero = () => {
   return (
-    <section className='flex items-center gap-[20px] mb-[113px]'>
+    <section id="#home" className='flex items-center gap-[20px] mb-[113px]'>
       <div className='w-[577px] p-2'>
         <h1 className='font-[700] text-[48px] leading-[57px] mb-[42px]'>Making time a good time by making food the good food.</h1>
         <p className='font-[500] text-[16px] leading-[24px] mb-[50px]'>There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment,</p>
